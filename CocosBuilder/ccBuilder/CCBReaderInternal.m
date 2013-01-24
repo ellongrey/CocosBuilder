@@ -374,7 +374,9 @@
     for (int i = 0; i < [children count]; i++)
     {
         CCNode* child = [CCBReaderInternal nodeGraphFromDictionary:[children objectAtIndex:i] parentSize:contentSize];
-        [node addChild:child z:i];
+        int zOrder = child.zOrder;
+        if (zOrder == 0) zOrder = i;
+        [node addChild:child z:zOrder];
     }
     
     // Selections
