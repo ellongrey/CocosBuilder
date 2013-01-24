@@ -111,6 +111,16 @@
 			<string>Tag</string>
 		</dict>
 		<dict>
+			<key>defaultSerialization</key>
+			<integer>0</integer>
+			<key>type</key>
+			<string>Integer</string>
+			<key>name</key>
+			<string>zOrder</string>
+			<key>displayName</key>
+			<string>Z-Order</string>
+		</dict>
+		<dict>
 			<key>type</key>
 			<string>Check</string>
 			<key>name</key>
