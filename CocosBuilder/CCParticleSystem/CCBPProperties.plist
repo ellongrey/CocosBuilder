@@ -69,6 +69,16 @@
 			<string>posVar</string>
 		</dict>
 		<dict>
+			<key>displayName</key>
+			<string>Position Type</string>
+			<key>name</key>
+			<string>positionType</string>
+			<key>type</key>
+			<string>IntegerLabeled</string>
+			<key>extra</key>
+			<string>Free|0|Relative|1|Grouped|2</string>
+		</dict>
+		<dict>
 			<key>default</key>
 			<integer>80</integer>
 			<key>displayName</key>
